@@ -1,0 +1,68 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+.container{
+    max-width: 995px;
+    margin: auto;
+    height: 80vh;
+    overflow: auto;
+}
+.message{
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius:10px ;
+}
+.left{
+    background-color: white;
+    float: left;
+    clear:both;
+}
+.middle{
+    
+    margin:0  auto; /* Set left and right margin to auto */
+    width: 30%; /* Set a specific width or use a percentage value */
+    clear: both;
+    text-align: center;
+    color: lightpink;
+    background-color: darkorchid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.right{
+    background-color: darkviolet;
+    color: white;
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+#messageInp{
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 25px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 30px;
+}
+.btn:hover{
+    background-color: darkviolet;
+    color: white;
+}
+body{
+    background-image: url("../Purple-to-white-gradient-1024x614.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
